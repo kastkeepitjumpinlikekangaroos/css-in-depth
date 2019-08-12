@@ -16,7 +16,8 @@
     height: 100px;
     margin: 0 15px;
     background-color: green;
-    animation: over-and-back 1.5s linear 3;
+    animation: none;
+    /* animation: over-and-back 1.5s linear 3; */
 }
 
 .container {
