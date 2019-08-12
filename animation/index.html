@@ -15,8 +15,11 @@
         .addEventListener("click", function(event) {
           document.getElementById("box-to-animate").style.animation =
             "over-and-back 1.5s linear 1";
+          document.getElementById("animate-button").disabled = true;
+
           setTimeout(function() {
             document.getElementById("box-to-animate").style.animation = "none";
+            document.getElementById("animate-button").disabled = false;
           }, 1500);
         });
     </script>
